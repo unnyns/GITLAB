@@ -1,9 +1,10 @@
 #include <stdio.h>
 void main()
 {
-  char Name[30][40] = {"Pitchapa sirir", "Yanisa treesak", "Ying Phakpon","Chai Chanchai", "Yong Boonsith", "Kitti Karndee"}; 
-  int ID[30] = {3489, 3418, 5303, 5304, 5305, 5306}; 
-  float GPA[30] = {4.00,4.00,4.00, 4.00, 4.00, 4.00}; 
+  char Name[30][40] = {"Yanisa Treesak", "Pitchapa Sirirattanakul", "Ying Phakpon","Chai Chanchai", "Yong Boonsith", "Kitti Karndee"};
+  int ID[30] = {3418, 3489, 5303, 5304, 5305, 5306};
+  float GPA[30] = {4.00,4.00,4.00, 4.00, 4.00, 4.00};
+
   int N = 6, i;
   int SearchID, found_index; 
  
